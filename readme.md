@@ -1,0 +1,1 @@
+Esse repositorio foi criado por Felipe Zanoni da Rosa, estudandte do ifsp no curso de INFORMATICA PARA INTERNET, turma 1, Prontuario:SL3031977 como trabalho de matematica.

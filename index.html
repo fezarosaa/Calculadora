@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Felipe Z. Rosa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="website icon" type="png" href="logo.png" />
+  </head>
+  <center>
+    <body style="background-color: beige" class="fontess">
+      <div>
+        <h1>Calculadora de Felipe Z. Rosa</h1>
+        <div class="result">
+          <h3 id="fim">########</h3>
+        </div>
+        <div class="container">
+          <div>
+            <input
+              type="text"
+              id="n1"
+              class="input"
+              placeholder="Somente números"
+            />
+
+            <input
+              type="text"
+              id="n2"
+              class="input"
+              placeholder="Somente números"
+            />
+            <div>
+              <button
+                class="buuton"
+                value="+"
+                id="soma"
+                onclick="pegarOperacao(value)"
+              >
+                +
+              </button>
+              <button
+                class="buuton"
+                value="-"
+                id="subitracao"
+                onclick="pegarOperacao(value)"
+              >
+                -
+              </button>
+              <button
+                class="buuton"
+                value="*"
+                id="multiplicacao"
+                onclick="pegarOperacao(value)"
+              >
+                x
+              </button>
+              <button
+                class="buuton"
+                value="/"
+                id="dividisao"
+                onclick="pegarOperacao(value)"
+              >
+                ÷
+              </button>
+              <button
+                class="buuton"
+                value="%"
+                id="porcentagem"
+                onclick="pegarOperacao(value)"
+              >
+                %
+              </button>
+              <button
+                class="buuton"
+                value="°"
+                id="potencia"
+                onclick="pegarOperacao(value)"
+              >
+                °
+              </button>
+              <button
+                class="buuton"
+                value="sqrt"
+                id="raiz"
+                onclick="pegarOperacao(value)"
+              >
+                √
+              </button>
+              <button
+              class="buuton"
+              value="limpar"
+              id="limpar"
+              onclick="pegarOperacao(value)"
+            >
+              Limpar
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </body>
+  </center>
+</html>
